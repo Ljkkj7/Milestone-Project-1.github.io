@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/contactstyle.css">
+    <script src="https://kit.fontawesome.com/58a80762a1.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar -->
+        <div class="nav-bar">
+            <!-- Logo -->
+            <a href="index.html"><h2>Special Serve</h2></a>
+            <div class="nav-right">
+                <nav>
+                    <!-- Navigation links -->
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="contact.html" class="active">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="signup-form-section">
+        <form id="singup-form">
+            <div id="form-outer">
+                <div id="section-heading">
+                    <h2>Enquiries</h2>
+                    <p>Please enter your details:</p>
+                </div>
+                <div id="form-inner">
+                    <div id="email-container">
+                        <label for="email"><b>Email</b></label><br>
+                        <input id="emailinput" type="text" placeholder="Enter Email" name="email" required>
+                    </div>
+                    <div id="phone-container">
+                        <label for="phone-number"><b>Phone Number</b></label><br>
+                        <input id="pwordinput" type="number" placeholder="Enter number" name="phonenumber" required>
+                    </div>
+                    <div id="enquiry-container">
+                        <label for="enquiry-desc"><b>Describe your desired menu</b></label><br>
+                        <textarea id="enquiryinput" placeholder="Description" name="enquirydesc" rows="4" cols="30" required></textarea>
+                    </div>
+                    <div id="contact-container">
+                        <fieldset>
+                            <label for="contact-type"><b>How would you like to be contacted?</b><br>
+                            <input type="radio" name="contact-t">Email<br>
+                            <input type="radio" name="contact-t">Phone<br>
+                            <input type="radio" name="contact-t">Both<br>
+                            </label>
+                        </fieldset>
+                    </div>
+                    <div id="cta-button-container">
+                        <button><a id="cta-button"><strong>Submit</strong></a></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <ul class="social-networks">
+            <li>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/" target="_blank"> <i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank"> <i class="fab fa-youtube-square""></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"> <i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+        <p>Copyright 2024 Kian Jenkins</p>
+    </footer> 
+</body>
+</html>
