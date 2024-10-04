@@ -156,29 +156,19 @@
 }
 
 #sectionL {
-    padding-top: 30px;
-    width: 50%;
+    width: 1%;
     float: left;
 }
 
 #sectionR {
-    padding-top: 30px;
-    width: 50%;
+    width: 1%;
     float: right;
 }
 
-.sectionheaderL {
-    width: 50%;
+.sectionheaderL p {
     float: right;
-    clear: both;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  
-  .sectionheaderR {
-    width: 50%;
+}
+
+.sectionheaderR p {
     float: left;
-    clear: both;
-    margin-bottom: 50px;
-    text-align: center;
-  }
+}
