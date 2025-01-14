@@ -1,9 +1,25 @@
+/* Global Reset */
 * {
-    margin:0;
-    padding:0;
-    border:0;
-  }
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
+html, body {
+    height: 100%; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column; /* Stack content and footer vertically */
+}
+
+/* Ensuring main content takes up available space and footer stays at the bottom */
+main {
+    flex: 1; /* This allows the main content to expand and push the footer to the bottom */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px; /* Optional: Space at the bottom for a small gap */
+}
+
+/* Navbar */
 .nav-bar {
     border-bottom: 2px solid black;
     background-color: rgba(191, 191, 191, 0.5);
@@ -48,72 +64,60 @@
     border-radius: 5px;
 }
 
+/* Products Section */
 #products {
-    height: 1200px;
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between; /* Ensure items are spaced */
+    gap: 20px; /* Add space between items */
+    width: 100%;
+    margin: 20px 0; /* Add some margin for spacing */
 }
 
+/* Product Header */
 #product-header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 2px solid black;
     text-align: center;
-    padding: 40px 0 40px 0;
+    padding: 40px 0;
+    width: 100%;
 }
 
-#menu1 {
+/* Menu Sections */
+#menu1, #menu2, #menu3 {
     font-family: monospace;
     font-size: 150%;
-    width: 33%;
-    height: 88.75%;
-    float: left;
+    width: 32%; /* Keep the width to fit three items side by side */
+    height: 100vh; /* Ensure the height spans the full viewport */
     text-align: center;
     padding-top: 20px;
-    border-right: 4px solid black;
-}
-
-#menu2 {
-    font-family: monospace;
-    font-size: 150%;
-    width: 33%;
-    height: 88.75%;
-    float: left;
-    text-align: center;
-    padding-top: 20px;
-    border-right: 4px solid black;
+    position: relative; /* Ensure correct positioning for borders */
+    border-right: 4px solid black; /* Border between menu items */
 }
 
 #menu3 {
-    font-family: monospace;
-    font-size: 150%;
-    width: 33%;
-    height: 88.75%;
-    float: left;
-    text-align: center;
-    padding-top: 20px;
+    border-right: none; /* No border for the last menu item */
 }
 
-#menu1 h2 {
+#menu1 h2, #menu2 h2, #menu3 h2 {
     padding-bottom: 20px;
 }
 
-#menu2 h2 {
-    padding-bottom: 20px;
-}
-
-#menu3 h2 {
-    padding-bottom: 20px;
-}
-
+/* Image Styling */
 #menuimg {
     box-shadow: 1px 1px 20px 5px grey;
     border: 4px solid black;
-    max-height: 88.75%;
+    width: 80%; /* Ensure image is responsive */
+    height: 80%; /* Set the height to fill the container */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
     transition: all 2s ease;
 }
 
 #menuimg:hover {
-    transform: scale(1.3)
+    transform: scale(1.3);
 }
 
+/* Call to Action */
 #cta-button-container {
     padding-top: 40px;
 }
@@ -136,27 +140,153 @@
     border-radius: 10px;
 }
 
+/* Footer */
 footer {
     border-top: 2px solid black;
-    height: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto; /* Push footer to the bottom */
 }
 
 footer p {
-    text-align: right;
+    font-size: 14px;
+    color: black;
 }
-  
+
+/* Social Networks */
 .social-networks {
-    width: 10%;
-    height: 10%;
+    list-style: none;
+    padding: 0;
     text-align: center;
-  }
-  
+}
+
 .social-networks li {
     display: inline;
-  }
-  
+    margin: 0 10px;
+}
+
 .social-networks i {
-    font-size: 100%;
-    padding: 5%;
+    font-size: 24px;
     color: black;
-  }
+}
+
+/* Mobile: Small screens */
+@media (max-width: 767px) {
+    .nav-bar h2 {
+        font-size: 18px;
+    }
+
+    .nav-bar a {
+        padding: 10px 12px;
+    }
+
+    .nav-bar {
+        padding: 10px;
+    }
+
+    #menu1, #menu2, #menu3 {
+        width: 100%;
+        float: none;
+        height: auto;
+        padding-top: 10px;
+        border-right: none;
+        text-align: center;
+    }
+
+    #menu1, #menu2 {
+        border-bottom: 4px solid black;
+    }
+
+    #menuimg:hover {
+        transform: scale(0.8);
+    }
+
+    #cta-button {
+        font-size: large;
+        padding: 10px 15px;
+    }
+
+    footer {
+        padding: 10px; /* Reduce padding on small screens */
+    }
+
+    footer p {
+        font-size: 12px; /* Smaller font size for mobile devices */
+    }
+
+    .social-networks {
+        width: 100%;
+    }
+
+    .social-networks i {
+        font-size: 80%;
+        padding: 5%;
+    }
+}
+
+/* Tablet: Medium screens (between 768px and 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-bar h2 {
+        font-size: 22px;
+    }
+
+    #menu1, #menu2, #menu3 {
+        width: 33%;
+        float: left;
+        height: auto;
+        padding-top: 20px;
+        border-right: 4px solid black;
+    }
+
+    #menuimg:hover {
+        transform: scale(0.8);
+    }
+
+    #menu3 {
+        border-right: none;
+    }
+
+    #cta-button {
+        font-size: xx-large;
+    }
+
+    footer {
+        padding: 15px 30px; /* Slightly more padding on tablets */
+    }
+
+    footer p {
+        font-size: 14px; /* Default font size for tablets */
+    }
+}
+
+/* Desktop: Larger screens */
+@media (min-width: 1024px) {
+    .nav-bar h2 {
+        font-size: 26px;
+    }
+
+    #menu1, #menu2, #menu3 {
+        width: 32%; /* Slightly reduce the width to fit 3 items side by side */
+        float: left;
+        height: auto;
+        padding-top: 20px;
+        border-right: 4px solid black;
+    }
+
+    #menu3 {
+        border-right: none;
+    }
+
+    footer {
+        padding: 20px 40px; /* Add more padding on larger screens */
+    }
+
+    footer p {
+        font-size: 16px; /* Larger font size on desktop */
+    }
+
+    #cta-button {
+        font-size: xx-large;
+        padding: 20px 30px;
+    }
+}
