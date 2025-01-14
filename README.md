@@ -2,24 +2,21 @@
 
 - This project consists of 4 different content pages, describing and detailing the products and services laid out by this psuedo comapny.
 
-## Home
-- The home page contains an opaque image of a scene of cocktails, describing the style of service provided by the website.
-- This is followed by an about us section detailing where the company is located and when it was formed
-- Below this is two slideshows showcasing the type of work provided and the customer experience to be expected.
-- Following on, there is a section detailing why the customer should choose this company with 4 sections explaining how and why they should. With a call to action button that leads to the product page.
-- The footer of this page contains the copyright of the website maker and the links to the companies social medias. 
+## User stories
+As the sole developer of this website, my goal is to secure employment opportunities in the web development area as well as other potential employment in the area of IT.
+I came up with the following points, which are applicable to the users:
 
+- As a user, I want to understand the purpose of this website quickly and easily.
+- As a user, I want to easily navigate this website (by using a mouse, a keyboard, or a touch screen).
+- As a user, I want to view this clients offerings and how to access them.
+- As a user, I want a way to contact this client.
+- As a user, I want to get foster an understanding of the products I can recieve.
 
-## Products
-- The product page contains 3 example menus showcasing the different type of cocktail genres the company can provide
-- beneath these are call to action buttons to enquire about having a cocktail menu created for you
-- Footer contains copyright and social media
+## Demo
 
-## Contact
-The contact page contains
+![Website responsiveness image](/resources/Screenshot%202025-01-14%20182613.jpg)
 
-## Sign up
-The sign-up page contains
+### A live demo to the website can be found [here](https://ljkkj7.github.io/Milestone-Project-1.github.io/index.html)
 
 ## External Code Used
 1. [Centering divs using top, bottom and transform](https://blog.hubspot.com/website/center-div-css)

@@ -1,14 +1,19 @@
+/* Global Reset */
 * {
-    margin:0;
-    padding:0;
-    border:0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
+/* Navbar */
 .nav-bar {
     border-bottom: 2px solid black;
     background-color: rgba(191, 191, 191, 0.5);
     overflow: hidden;
     padding: 14px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-bar h2 {
@@ -16,12 +21,10 @@
     letter-spacing: 4px;
     font-weight: 50;
     margin: 0;
-    float: left;
 }
 
 .nav-right {
     margin-top: 2px;
-    float: right;
 }
 
 .nav-bar a {
@@ -48,15 +51,17 @@
     border-radius: 5px;
 }
 
+/* Sign Up Form Section */
 #signup-form-section {
-    height:850px;
+    height: 850px;
     border-bottom: 2px solid black;
 }
 
+/* Section Heading */
 #section-heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
     border-bottom: 2px solid black;
 }
 
@@ -64,10 +69,7 @@
     padding-bottom: 8px;
 }
 
-::placeholder {
-    text-align: center;
-}
-
+/* Form Layout */
 #form-outer {
     text-align: center;
 }
@@ -75,8 +77,9 @@
 #form-inner {
     overflow-x: hidden;
     margin-top: 5%;
-    width: 600px;
-    height: 500px;
+    width: 100%; /* Full width on small screens */
+    max-width: 600px; /* Keep a max width to prevent stretching too much on large screens */
+    height: auto;
     display: inline-block;
     text-align: center;
     border: 2px solid black;
@@ -85,59 +88,39 @@
     animation-name: slideRight;
     animation-duration: 1s;
     animation-fill-mode: both;
+    padding: 20px; /* Added padding for better spacing */
 }
 
 @keyframes slideRight {
     from {
-      transform: translate3d(100%, 0, 0);
-      visibility: visible;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
     }
-  
     to {
-      transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
 }
 
-#email-container {
-    padding: 20px 0 10px 0;
-}
-
-#phone-container {
-    padding: 10px 0 10px 0;
-}
-
-#enquiry-container {
-    padding: 10px 0 10px 0;
-}
-
+/* Form Elements */
+#email-container,
+#phone-container,
+#enquiry-container,
 #contact-container {
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
 }
 
-#contact-container label {
-    padding-bottom: 10px;
-}
-
-#emailinput {
+input, select, textarea {
     border: 2px solid black;
     border-radius: 4px;
+    padding: 10px;
+    width: 100%; /* Make input fields take up full width inside the form */
+    max-width: 400px; /* Limit width of the inputs */
+    box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
-#pwordinput {
-    border: 2px solid black;
-    border-radius: 4px;
-}
-
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-#enquiryinput {
-    padding-top: 5px;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 4px;
+input[type="radio"] {
+    width: auto; /* Radio buttons should not stretch */
+    margin-right: 10px; /* Space out radio buttons */
 }
 
 #cta-button-container {
@@ -149,7 +132,7 @@ input::-webkit-inner-spin-button {
     background-color: rgba(191, 191, 191, 0.9);
     border: 2px solid black;
     border-radius: 10px;
-    padding: 0 5px 5px 5px;
+    padding: 10px 15px;
     text-decoration: none;
     letter-spacing: 1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -162,26 +145,153 @@ input::-webkit-inner-spin-button {
     border-radius: 10px;
 }
 
+/* Footer */
 footer {
-    height: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 footer p {
-    text-align: right;
+    font-size: 14px;
 }
-  
+
+/* Social Networks */
 .social-networks {
-    width: 10%;
-    height: 10%;
+    list-style: none;
+    padding: 0;
     text-align: center;
-  }
-  
+    margin-top: 10px;
+}
+
 .social-networks li {
     display: inline;
-  }
-  
+    margin: 0 10px;
+}
+
 .social-networks i {
-    font-size: 100%;
-    padding: 5%;
+    font-size: 24px;
     color: black;
-  }
+}
+
+/* Responsive Styles */
+
+/* Mobile: Small screens */
+@media (max-width: 767px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-bar h2 {
+        font-size: 18px;
+    }
+
+    .nav-bar nav a {
+        padding: 10px 12px;
+    }
+
+    #form-inner {
+        width: 90%; /* Take up more space on smaller screens */
+        max-width: 100%;
+    }
+
+    input, select, textarea {
+        width: 100%; /* Inputs take up full width */
+        margin-bottom: 10px; /* Space between inputs */
+    }
+
+    #cta-button {
+        font-size: large;
+        padding: 10px 20px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .social-networks {
+        width: 100%;
+    }
+
+    .social-networks i {
+        font-size: 80%;
+        padding: 5%;
+    }
+}
+
+/* Tablet: Medium screens (between 768px and 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-bar {
+        flex-direction: row;
+    }
+
+    .nav-bar h2 {
+        font-size: 22px;
+    }
+
+    .nav-bar nav a {
+        padding: 12px 14px;
+    }
+
+    #form-inner {
+        width: 80%;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        margin-bottom: 15px; /* Adjust spacing between inputs */
+    }
+
+    #cta-button {
+        font-size: xx-large;
+        padding: 15px 25px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+/* Desktop: Larger screens */
+@media (min-width: 1024px) {
+    .nav-bar {
+        flex-direction: row;
+    }
+
+    .nav-bar h2 {
+        font-size: 26px;
+    }
+
+    .nav-bar nav a {
+        padding: 14px 16px;
+    }
+
+    #form-inner {
+        width: 600px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+    }
+
+    #cta-button {
+        font-size: xx-large;
+        padding: 20px 30px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}
