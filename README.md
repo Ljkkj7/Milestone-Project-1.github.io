@@ -56,6 +56,11 @@ I came up with the following points, which are applicable to the users:
  * GitPod was allowing me to deploy locally through the use of a single "/" prefix
  * To fix this I added a "." to instruct the webpage to come out by one file path and re-enter the correct folder
 
+* To address the large amount of commits on one day and the low commit count -
+  * I was running into an error with GitPod whereby my commits that I was making were not being synced to my GitHub repository
+  * To address this, I sought support from fellow students on slack and scheduled a project review meeting with my mentor
+  * This again, was a syntax error in which my commit messages werent being saved and therefore, not uploaded to the main GitHub repository
+
 ## External Code Used
 1. [Centering divs using top, bottom and transform](https://blog.hubspot.com/website/center-div-css)
 2. Love Running CI Example CSS
