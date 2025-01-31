@@ -50,13 +50,13 @@ I came up with the following points, which are applicable to the users:
   - The deployed site will update automatically upon new commits to the master branch.
 
 ## Bug Fixes
-* Initially, I was having problems with deployment to GitHub Pages. My CSS pages werent displaying properly as they were oh GitPod.
- * To combat this discrepancy, I combed through my code to indentify any syntax errors that could be causing the disconnect.
- * Following this, I Identified there was an error in the way I was referencing the stylesheets filepaths.
- * GitPod was allowing me to deploy locally through the use of a single "/" prefix
- * To fix this I added a "." to instruct the webpage to come out by one file path and re-enter the correct folder
+- Initially, I was having problems with deployment to GitHub Pages. My CSS pages werent displaying properly as they were oh GitPod.
+  * To combat this discrepancy, I combed through my code to indentify any syntax errors that could be causing the disconnect.
+  * Following this, I Identified there was an error in the way I was referencing the stylesheets filepaths.
+  * GitPod was allowing me to deploy locally through the use of a single "/" prefix
+  * To fix this I added a "." to instruct the webpage to come out by one file path and re-enter the correct folder
 
-* To address the large amount of commits on one day and the low commit count -
+- To address the large amount of commits on one day and the low commit count -
   * I was running into an error with GitPod whereby my commits that I was making were not being synced to my GitHub repository
   * To address this, I sought support from fellow students on slack and scheduled a project review meeting with my mentor
   * This again, was a syntax error in which my commit messages werent being saved and therefore, not uploaded to the main GitHub repository
