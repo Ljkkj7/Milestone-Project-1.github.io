@@ -192,7 +192,7 @@
     padding-bottom: 15px;
 }
 
-#slider {
+.slider {
     border: 6px solid black;
     box-shadow: 1px 10px 20px 15px grey;
 	overflow: hidden;
@@ -208,18 +208,18 @@
 	100% { left: 0; }
 }
 
-#slider figure {
+.slider figure {
 	width:300%;
     height: 100%;
 	position: relative;
 	animation: 9s slider infinite;
 }
 
-#slider figure:hover {
+.slider figure:hover {
 	animation-play-state: paused;
 }
 
-#slider figure img {
+.slider figure img {
 	width: 33.33%;
 	height : 100%;
 	float: left;
