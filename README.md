@@ -19,7 +19,7 @@ I came up with the following points, which are applicable to the users:
 
 ## Demo
 
-![Website responsiveness image](/resources/Screenshot%202025-01-14%20182613.jpg)
+![Website responsiveness image](/resources/LiveMockup.jpg)
 
 ### A live demo to the website can be found [here](https://ljkkj7.github.io/Milestone-Project-1.github.io/index.html)
 
