@@ -49,6 +49,10 @@ I came up with the following points, which are applicable to the users:
   
   - The deployed site will update automatically upon new commits to the master branch.
 
+## Testing
+- CSS Validation testing
+![CSS VAlidation Image](/resources/CSSValidation.jpg)
+
 ## Bug Fixes
 - Initially, I was having problems with deployment to GitHub Pages. My CSS pages werent displaying properly as they were oh GitPod.
   * To combat this discrepancy, I combed through my code to indentify any syntax errors that could be causing the disconnect.
