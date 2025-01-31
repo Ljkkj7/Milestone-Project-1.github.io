@@ -49,6 +49,13 @@ I came up with the following points, which are applicable to the users:
   
   - The deployed site will update automatically upon new commits to the master branch.
 
+## Bug Fixes
+* Initially, I was having problems with deployment to GitHub Pages. My CSS pages werent displaying properly as they were oh GitPod.
+ * To combat this discrepancy, I combed through my code to indentify any syntax errors that could be causing the disconnect.
+ * Following this, I Identified there was an error in the way I was referencing the stylesheets filepaths.
+ * GitPod was allowing me to deploy locally through the use of a single "/" prefix
+ * To fix this I added a "." to instruct the webpage to come out by one file path and re-enter the correct folder
+
 ## External Code Used
 1. [Centering divs using top, bottom and transform](https://blog.hubspot.com/website/center-div-css)
 2. Love Running CI Example CSS
