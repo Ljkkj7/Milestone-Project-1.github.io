@@ -65,6 +65,10 @@ I came up with the following points, which are applicable to the users:
   * To address this, I sought support from fellow students on slack and scheduled a project review meeting with my mentor
   * This again, was a syntax error in which my commit messages werent being saved and therefore, not uploaded to the main GitHub repository
 
+- There was a slight issue with the font awesome icon library not displaying the icons in the footer
+  * To combat this I researched common problems with using the font awesome library and came across a solution
+  * Instead of referencing the fontawesome script, I linked to a stylesheet hosted on an external server
+
 ## External Code Used
 1. [Centering divs using top, bottom and transform](https://blog.hubspot.com/website/center-div-css)
 2. Love Running CI Example CSS
