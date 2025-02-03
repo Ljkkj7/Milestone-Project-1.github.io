@@ -52,7 +52,7 @@
     width: 100%;
     height: 100%;
     opacity: 0.8;
-    background: url(../resources/content1bg.jpg) no-repeat center center;
+    background: url(../Images/content1bg.jpg) no-repeat center center;
     background-size: cover;
     animation-name: hero-zoom;
     animation-duration: 5s;
