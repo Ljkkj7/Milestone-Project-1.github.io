@@ -271,13 +271,9 @@
     padding-right: 20px;
 }
 
-#cta {
-    height: 200px;
-}
-
 #cta-button-container {
     text-align: center;
-    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 #cta-button {
