@@ -19,7 +19,7 @@ I came up with the following points, which are applicable to the users:
 
 ## Demo
 
-![Website responsiveness image](/resources/LiveMockup.jpg)
+![Website responsiveness image](/Assets/Images/LiveMockup.jpg)
 
 ### A live demo to the website can be found [here](https://ljkkj7.github.io/Milestone-Project-1.github.io/index.html)
 
@@ -51,7 +51,10 @@ I came up with the following points, which are applicable to the users:
 
 ## Testing
 - CSS Validation testing
-![CSS VAlidation Image](/resources/CSSValidation.jpg)
+![CSS Validation Image](/Assets/Images/CSSValidation.jpg)
+
+- HTMl Validation testing
+![CSS Validation Image](/Assets/Images/HTMLValidation.jpg)
 
 ## Bug Fixes
 - Initially, I was having problems with deployment to GitHub Pages. My CSS pages werent displaying properly as they were oh GitPod.
@@ -68,6 +71,9 @@ I came up with the following points, which are applicable to the users:
 - There was a slight issue with the font awesome icon library not displaying the icons in the footer
   * To combat this I researched common problems with using the font awesome library and came across a solution
   * Instead of referencing the fontawesome script, I linked to a stylesheet hosted on an external server
+
+- I had trouble fixing the descendacy issue concerning the anchor tags and HTML validation
+  * After some research I found the best course of action was to style the anchor tag as a button using my CSS files
 
 ## External Code Used
 1. [Centering divs using top, bottom and transform](https://blog.hubspot.com/website/center-div-css)
