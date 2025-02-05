@@ -39,6 +39,12 @@ I came up with the following points, which are applicable to the users:
 * I confirmed that the navigation and the sections Home, Products and Contact are readable and easy to understand.
 * I confirmed that the form works: it requires entries in every field, only accepts an email in the email field, and the submit buttons work.
 
+- CSS Validation testing
+![CSS Validation Image](/Assets/Images/CSSValidation.jpg)
+
+- HTMl Validation testing
+![CSS Validation Image](/Assets/Images/HTMLValidation.jpg)
+
 ## Deployment
 * The site was deployed to Git Hub pages using the following steps:
   * In the Github repository, the Stetting tab.
@@ -48,13 +54,6 @@ I came up with the following points, which are applicable to the users:
   * On the top of the page, the link to the complete website is provided.
   
   - The deployed site will update automatically upon new commits to the master branch.
-
-## Testing
-- CSS Validation testing
-![CSS Validation Image](/Assets/Images/CSSValidation.jpg)
-
-- HTMl Validation testing
-![CSS Validation Image](/Assets/Images/HTMLValidation.jpg)
 
 ## Testing User Stories
 
