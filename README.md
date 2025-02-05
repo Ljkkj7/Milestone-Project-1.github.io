@@ -35,9 +35,20 @@ I came up with the following points, which are applicable to the users:
 ## Testing
 * I tested the site, and it works in different web browsers: Chrome, Firefox, and Microsoft Edge.
 * On mobile devices, I tested the my site on multiple mobile devices offered by the dev tools of google chrome
+- ![Desktop Image](/Assets/Images/userstorytest7.jpg)
+- ![Mobile Image](/Assets/Images/testingmobile1.jpg)
+- ![Mobile Image](/Assets/Images/testingmobile2.jpg)
+- ![Mobile Image](/Assets/Images/testingmobile3.jpg)
 * I confirmed that the site is responsive and functions on different screen sizes using the devtools device toolbar.
 * I confirmed that the navigation and the sections Home, Products and Contact are readable and easy to understand.
+- ![NavBar - Home](/Assets/Images/userstorytest4.jpg)
+- ![NavBar - Product](/Assets/Images/navbartestproduct.jpg)
+- ![NavBar - Contact](/Assets/Images/navbartestcontact.jpg)
 * I confirmed that the form works: it requires entries in every field, only accepts an email in the email field, and the submit buttons work.
+- ![Form Test](/Assets/Images/formtest2.jpg)
+- ![Form Test](/Assets/Images/formtest1.jpg)
+- ![Form Test](/Assets/Images/formtest3.jpg)
+- ![Form Test](/Assets/Images/formtest4.jpg)
 
 - ## CSS Validation testing
 ![CSS Validation Image](/Assets/Images/cssvalidation.jpg)
