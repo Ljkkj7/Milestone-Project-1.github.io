@@ -8,8 +8,8 @@ I came up with the following points, which are applicable to the users:
 
 - As a user, I want to understand the purpose of this website quickly and easily.
 - As a user, I want to easily navigate this website (by using a mouse, a keyboard, or a touch screen).
-- As a user, I want to view this clients offerings and how to access them.
-- As a user, I want a way to contact this client.
+- As a user, I want to view this businesses offerings and how to access them.
+- As a user, I want a way to contact this business.
 - As a user, I want to get foster an understanding of the products I can recieve.
 
 ## UX
@@ -55,6 +55,50 @@ I came up with the following points, which are applicable to the users:
 
 - HTMl Validation testing
 ![CSS Validation Image](/Assets/Images/HTMLValidation.jpg)
+
+## Testing User Stories
+
+-  ## As a user, I want to understand the purpose of this website quickly and easily.
+  - When landing on the first page of the website the user is greeted with this hero image
+![User Story Test Image - Hero Image](/Assets/Images/userstorytest1.jpg)
+  - This clearly demonstrates the product of the company and the quality of their product
+  - Scrolling down from here, the user is presented with a more detailed description of who and what the company do and are
+![User Story Test Image - About Us](/Assets/Images/userstorytest2.jpg)
+  - Scrolling down even further, the user is presented with detailed information about the companies accolades and why they should choose them
+![User Story Test Image - Why choose us](/Assets/Images/userstorytest3.jpg)
+  - I believe this successfully demonstrates to the user:
+    - The purpose of the website (Cocktail menu creation)
+    - What the company has achieved
+    - How the company benefits the user
+  - Doing this within 3 sections of one page, I believe this also touches on every point efficiently
+
+-  ## As a user, I want to easily navigate this website (by using a mouse, a keyboard, or a touch screen).
+  - The website can be easily navigable through the use of the buttons on the navbar as shown below
+![User Story Test Image - NavBar](/Assets/Images/userstorytest4.jpg)
+  - Additionally, there are multiple CTA buttons that drive the users to the required pages based on context
+  - ### CTA 1
+![User Story Test Image - CTA button 1](/Assets/Images/userstorytest3.jpg)
+  - ### CTA 2
+![User Story Test Image - CTA button 2](/Assets/Images/userstorytest5.jpg)
+
+- ## As a user, I want to view this businesses offerings and how to access them.
+  - Following the natural flow of the website to the bottom of the index page - the user will find the get started button
+![User Story Test Image - Get Started](/Assets/Images/userstorytest3.jpg)
+  - This brings them to the products page where the user can easily see the example products being offered by the business
+![User Story Test Image - Products](/Assets/Images/userstorytest6.jpg)
+
+- ## As a user, I want a way to contact this business.
+ - Contained inside the navigation bar there is a button that links to the contact page
+ - Additionally, Underneath the exmaple product menus there is 3 CTA buttons that redirect to the contact page
+ - Inside the contact page there is a form containing which details need to be entered in order for the user to contact the business
+![User Story Test Image - Contact](/Assets/Images/userstorytest7.jpg)
+
+- ## As a user, I want to get foster an understanding of the products I can recieve.
+  - As laid out in the index page, there is 2 sections deatiling who the company are, what they do and what the user can look to them for
+![User Story Test Image - Company Description](/Assets/Images/userstorytest3.jpg)
+  - Additionally, in the products page the user can ascertain what type of product is being offered
+![User Story Test Image - Products](/Assets/Images/userstorytest6.jpg)
+
 
 ## Bug Fixes
 - Initially, I was having problems with deployment to GitHub Pages. My CSS pages werent displaying properly as they were oh GitPod.
