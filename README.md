@@ -39,11 +39,14 @@ I came up with the following points, which are applicable to the users:
 * I confirmed that the navigation and the sections Home, Products and Contact are readable and easy to understand.
 * I confirmed that the form works: it requires entries in every field, only accepts an email in the email field, and the submit buttons work.
 
-- CSS Validation testing
-![CSS Validation Image](/Assets/Images/CSSValidation.jpg)
+- ## CSS Validation testing
+![CSS Validation Image](/Assets/Images/cssvalidation.jpg)
 
-- HTMl Validation testing
-![CSS Validation Image](/Assets/Images/HTMLValidation.jpg)
+- ## HTMl Validation testing
+![CSS Validation Image](/Assets/Images/htmlvalidation.jpg)
+
+- ## Lighthouse testing
+![Lighthouse testing Image](/Assets/Images/lighthousetest.jpg)
 
 ## Deployment
 * The site was deployed to Git Hub pages using the following steps:
