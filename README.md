@@ -22,6 +22,12 @@ I came up with the following points, which are applicable to the users:
 - Index page wireframe
 - - ![Index wireframe](Assets/Images/wireframeindex.jpg)
 
+- Products page wireframe
+- - ![Products wireframe](Assets/Images/productswireframe.jpg)
+
+- Contact page wireframe
+- - ![Contact wireframe](Assets/Images/contactwireframe.jpg)
+
 ## Demo
 
 ![Website responsiveness image](Assets/Images/livemockup.jpg)
@@ -136,6 +142,10 @@ I came up with the following points, which are applicable to the users:
 
 - I had trouble fixing the descendacy issue concerning the anchor tags and HTML validation
   * After some research I found the best course of action was to style the anchor tag as a button using my CSS files
+
+## Known Bugs
+
+- Assets & Images files are capitalised due to an issue changing the file names when uploading using Git in VSCode
 
 ## External Code Used
 1. [Centering divs using top, bottom and transform](https://blog.hubspot.com/website/center-div-css)
