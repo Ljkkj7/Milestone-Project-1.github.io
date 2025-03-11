@@ -19,9 +19,11 @@ I came up with the following points, which are applicable to the users:
 
 ## Wireframes
 
+- I have used the same wireframe for both mobile and tablet resolutions as I intend to display the same content for both sizes
+
 - Index page wireframe
 - - ![Index wireframe](Assets/Images/wireframeindex.jpg)
-- Index page wirefram Mobile & Tablet
+- Index page wireframe Mobile & Tablet
 - - ![Index wireframe](Assets/Images/indexwireframemobile.jpg)
 
 - Products page wireframe
