@@ -28,12 +28,12 @@ I came up with the following points, which are applicable to the users:
 
 - Products page wireframe
 - - ![Products wireframe](Assets/Images/productswireframe.jpg)
-- Products page wirefram Mobile & Tablet
+- Products page wireframe Mobile & Tablet
 - - ![Index wireframe](Assets/Images/productwireframemobile.jpg)
 
 - Contact page wireframe
 - - ![Contact wireframe](Assets/Images/contactwireframe.jpg)
-- Contact page wirefram Mobile & Tablet
+- Contact page wireframe Mobile & Tablet
 - - ![Index wireframe](Assets/Images/contactwireframemobile.jpg)
 
 ## Demo
