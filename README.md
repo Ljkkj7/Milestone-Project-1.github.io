@@ -20,7 +20,7 @@ I came up with the following points, which are applicable to the users:
 ## Wireframes
 
 - Index page wireframe
-- - ![Index wireframe](assets/images/wireframeindex.jpg)
+- - ![Index wireframe](Assets/Images/wireframeindex.jpg)
 
 ## Demo
 
