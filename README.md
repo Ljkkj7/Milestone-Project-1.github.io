@@ -17,6 +17,11 @@ I came up with the following points, which are applicable to the users:
 - There are two user groups targeted by this website. They are personal and business clients.
 - The site is focused on simplicity and ease of navigation for the products available.
 
+## Wireframes
+
+- Index page wireframe
+- - ![Index wireframe](assets/images/wireframeindex.jpg)
+
 ## Demo
 
 ![Website responsiveness image](Assets/Images/livemockup.jpg)
