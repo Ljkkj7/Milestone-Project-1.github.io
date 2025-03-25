@@ -95,12 +95,8 @@ main {
     text-align: center;
     padding-top: 20px;
     position: relative; /* Ensure correct positioning for borders */
-    border-right: 4px solid black; /* Border between menu items */
 }
 
-#menu3 {
-    border-right: none; /* No border for the last menu item */
-}
 
 #menu1 h2, #menu2 h2, #menu3 h2 {
     padding-bottom: 20px;
