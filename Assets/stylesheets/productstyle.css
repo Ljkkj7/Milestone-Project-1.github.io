@@ -90,11 +90,10 @@ main {
 #menu1, #menu2, #menu3 {
     font-family: monospace;
     font-size: 150%;
-    width: 32%; /* Keep the width to fit three items side by side */
+    width: 33%; /* Keep the width to fit three items side by side */
     height: 100vh; /* Ensure the height spans the full viewport */
     text-align: center;
     padding-top: 20px;
-    position: relative; /* Ensure correct positioning for borders */
 }
 
 
@@ -118,7 +117,8 @@ main {
 
 /* Call to Action */
 #cta-button-container {
-    padding-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 #cta-button {
