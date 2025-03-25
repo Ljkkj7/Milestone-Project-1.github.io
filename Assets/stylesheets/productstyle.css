@@ -192,10 +192,6 @@ footer p {
         text-align: center;
     }
 
-    #menu1, #menu2 {
-        border-bottom: 4px solid black;
-    }
-
     #menuimg:hover {
         transform: scale(0.8);
     }
@@ -234,7 +230,6 @@ footer p {
         float: left;
         height: auto;
         padding-top: 20px;
-        border-right: 4px solid black;
     }
 
     #menuimg:hover {
@@ -269,7 +264,6 @@ footer p {
         float: left;
         height: auto;
         padding-top: 20px;
-        border-right: 4px solid black;
     }
 
     #menu3 {
